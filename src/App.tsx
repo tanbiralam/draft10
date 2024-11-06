@@ -1,14 +1,14 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import CareerPath from './components/CareerPath';
-import LearningJourney from './components/LearningJourney';
-import Programs from './components/Programs';
-import PlacementCounsel from './components/PlacementCounsel';
-import ProductManagement from './components/ProductManagement';
-import BecomeMentor from './components/BecomeMentor';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import CareerPath from "./components/CareerPath";
+import LearningJourney from "./components/LearningJourney";
+import Programs from "./components/Programs";
+import PlacementCounsel from "./components/PlacementCounsel";
+import ProductManagement from "./components/ProductManagement";
+import BecomeMentor from "./components/BecomeMentor";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <PlacementCounsel />
       <ProductManagement />
       <BecomeMentor />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </div>
   );
